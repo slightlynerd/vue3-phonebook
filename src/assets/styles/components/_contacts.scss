@@ -1,0 +1,44 @@
+.phonebook {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact {
+  .row {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-details {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .contact-info {
+    width: 65%;
+  }
+
+  .contact-initials {
+    background-color: #3f51b5;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 72px;
+    height: 54px;
+  }
+
+  .contact-name {
+    font-weight: bold;
+  }
+  .contact-email, .contact-phone {
+    font-size: 14px;
+    color: #444;
+  }
+  .contact-actions {
+    button:nth-child(1) {
+      margin-right: 5px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+button {
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #3f51b5;
+  background-color: transparent;
+  border-radius: 3px;
+
+  &:disabled {
+    background-color: #e0e0e0;
+    color: #888888;
+  }
+}
+
+.btn-add {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  background-color: #3f51b5;
+  color: white;
+}
